@@ -1,0 +1,36 @@
+#parent {
+  /* width: 120px;
+  height: 120px; */
+  /* border: 1px solid;
+  /* display: none;
+  width: 200px;
+  height: 200px; */
+  margin-top: 12px;
+  width: fit-content;
+}
+.row {
+  /* height: 33%; */
+  display: flex;
+}
+.col {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  position: relative;
+  /* border-bottom: 0;
+  border-right: 0; */
+}
+/* .row:not(:last-child) {
+  border-bottom: 1px solid;
+} */
+
+/* .row > div:last-child {
+  border: 1px solid;
+} */
+
+.selected {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
